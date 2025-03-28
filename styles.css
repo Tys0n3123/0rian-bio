@@ -1,0 +1,106 @@
+/* Center Everything */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url('https://i.pinimg.com/736x/14/5c/c3/145cc3c52d840aa91fdabe115d420d1e.jpg'); /* Make sure this image exists */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  cursor: url('https://cdn.discordapp.com/attachments/1300100269694124064/1355190599602405498/image-removebg-preview.png'), auto;
+}
+
+/* Main Container with Red Border */
+.container {
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+  border: 4px solid red; /* 🔴 Red border around everything */
+  border-radius: 10px;
+  padding: 20px;
+  margin: 50px auto;
+  box-shadow: 0px 0px 15px red; /* 🔥 Glowing effect */
+}
+
+/* Profile Section */
+.profile-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* Profile Picture */
+.profile-pic {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-bottom: 10px;
+}
+
+/* Username */
+.username {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Align Buttons in a Row */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Round Icon Buttons */
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: #222;
+  border-radius: 50%;
+  text-decoration: none;
+  border: 2px solid white;
+  transition: 0.3s;
+  cursor: pointer; /* Pointer cursor for buttons */
+}
+
+/* Button Hover Effect */
+.button:hover {
+  background-color: #555;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotateX(0deg) rotateY(0deg);
+  transform-style: preserve-3d;
+  transition: transform 0.1s ease-out;
+}
+
+/* Icons Inside Buttons */
+.icon {
+  width: 50px;
+  height: auto;
+}
+
+/* Bio Section */
+.bio {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #ddd;
+  max-width: 90%;
+  line-height: 1.5;
+}
+
+/* Music Player */
+.music-player {
+  margin-top: 20px;
+}
